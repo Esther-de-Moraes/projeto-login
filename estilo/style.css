@@ -14,6 +14,7 @@ roxo: #5f2c82
 }
 
 body, html{
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
     background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
@@ -24,6 +25,7 @@ main{
     height: 100vh;
     width: 100vw;
     position: relative;
+    h1{color: #4b2e5f;}
 }
 
 section#login{
@@ -60,5 +62,56 @@ div#formulario> h1{
     margin-bottom: 10px;
 }
 div#formulario> p{
+    font-size: 0.8em;
+}
+form>div.campo{
+    background-color: #ac84c7b8;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    margin: 5px 0;
+}
+label{
+    display: none;
+}
+
+form>input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #5f2c82;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+form>input[type=submit]:hover{
+    background-color: #1d4948d5;
+    
+}
+form>a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: #2d6462;
+    border: 1px solid #49a09d;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+form>a.botao:hover{
+    background-color: #49a09d;
+    color: white;
+}
+form>a.botao>span{
     font-size: 0.8em;
 }
